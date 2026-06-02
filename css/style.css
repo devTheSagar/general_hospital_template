@@ -360,6 +360,67 @@ body {
     opacity: .92;
 }
 
+
+/* ================= TESTIMONIAL ================= */
+
+.testimonial-section{
+    padding:120px 0;
+    background:#fff;
+}
+
+/* BOX */
+.testimonial-box{
+    padding:15px 0;
+}
+
+/* QUOTE */
+.quote-icon{
+    width:50px;
+    height:50px;
+    fill:none;
+    stroke:#06b6d4;
+    stroke-width:1.8;
+    margin-bottom:22px;
+}
+
+/* TEXT */
+.testimonial-box p{
+    color:#6b7280;
+    font-size:16px;
+    line-height:1.9;
+    margin-bottom:28px;
+}
+
+/* PATIENT */
+.patient-info{
+    display:flex;
+    align-items:center;
+    gap:16px;
+}
+
+/* CIRCULAR IMAGE */
+.patient-info img{
+    width:72px;
+    height:72px;
+    border-radius:50%;
+    object-fit:cover;
+}
+
+/* NAME */
+.patient-info h5{
+    font-size:18px;
+    font-weight:700;
+    color:#0b2545;
+    margin-bottom:4px;
+}
+
+/* ROLE */
+.patient-info span{
+    color:#6366f1;
+    font-size:14px;
+    font-weight:600;
+}
+
 /* ====================================FOOTER ==================================*/
 .footer {
     background: #071b34;
