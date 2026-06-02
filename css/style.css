@@ -187,6 +187,52 @@ body {
 }
 
 
+/* ========================DEPARTMENTS SECTION ===================*/
+.departments-section{
+    padding:120px 0;
+    background:#ffffff;
+}
+
+/* BOX - NO CARD FEEL */
+.dept-box{
+    text-align:center;
+    padding:20px 10px;
+}
+
+/* ICON */
+.icon svg{
+    width:70px;
+    height:70px;
+
+    fill:none;
+    stroke:#111827;
+    stroke-width:2;
+
+    stroke-linecap:round;
+    stroke-linejoin:round;
+}
+
+/* color variation */
+.dept-box:nth-child(1) .icon svg{ stroke:#111827; }
+.dept-box:nth-child(2) .icon svg{ stroke:#6366f1; }
+.dept-box:nth-child(3) .icon svg{ stroke:#06b6d4; }
+.dept-box:nth-child(4) .icon svg{ stroke:#22c55e; }
+.dept-box:nth-child(5) .icon svg{ stroke:#f97316; }
+
+/* TEXT */
+.dept-box h4{
+    font-size:22px;
+    font-weight:700;
+    margin:12px 0 8px;
+    color:#0b2545;
+}
+
+.dept-box p{
+    color:#6b7280;
+    font-size:15px;
+    line-height:1.7;
+}
+
 /* ========================================DOCTOR SECTION ===========================*/
 
 .doctors-section{
@@ -316,7 +362,7 @@ body {
     opacity: .92;
 }
 
-/* FOOTER */
+/* ====================================FOOTER ==================================*/
 .footer {
     background: #071b34;
     color: #fff;
