@@ -93,53 +93,140 @@ body {
     margin-top: 18px;
 }
 
-/* SERVICES */
-
-.services {
-    padding: 110px 0;
+/* SERVICES SECTION */
+.services{
+    padding:120px 0;
+    background:#f7fbff;
 }
 
-.services h2 {
-    font-size: 42px;
-    font-weight: 800;
-    color: #0b2545;
-}
+.service-card{
 
-.services p {
-    color: #6b7280;
-}
+    background:#fff;
 
-.service-card {
-    background: #fff;
-    padding: 45px 35px;
-    border-radius: 22px;
+    border-radius:28px;
+
+    overflow:hidden;
 
     box-shadow:
-        0 12px 40px rgba(0, 0, 0, .07);
+    0 20px 60px rgba(0,0,0,.08);
 
-    transition: .35s;
-    border-top: 5px solid transparent;
+    transition:.35s ease;
 
-    height: 100%;
+    height:100%;
 }
 
-.service-card:hover {
-    transform: translateY(-12px);
+.service-card:hover{
 
-    border-color: #0d6efd;
+    transform:translateY(-12px);
 
     box-shadow:
-        0 20px 50px rgba(13, 110, 253, .18);
+    0 30px 80px rgba(13,110,253,.18);
 }
 
-.service-card h4 {
-    margin-bottom: 18px;
-    font-weight: 700;
-    color: #0b2545;
+/* IMAGE */
+
+.service-image{
+
+    height:250px;
+
+    overflow:hidden;
 }
 
-.service-card p {
-    line-height: 1.9;
+.service-image img{
+
+    width:100%;
+    height:100%;
+
+    object-fit:cover;
+
+    transition:.5s;
+}
+
+.service-card:hover .service-image img{
+
+    transform:scale(1.08);
+}
+
+/* CONTENT */
+
+.service-content{
+
+    padding:40px 35px 35px;
+
+    position:relative;
+}
+
+/* ICON */
+
+.service-icon{
+
+    width:90px;
+    height:90px;
+
+    background:
+    linear-gradient(
+    135deg,
+    #0d6efd,
+    #00c6ff);
+
+    border-radius:24px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    position:absolute;
+
+    top:-45px;
+
+    right:30px;
+
+    box-shadow:
+    0 15px 35px rgba(13,110,253,.35);
+}
+
+.service-icon svg{
+
+    width:42px;
+    height:42px;
+
+    stroke:#fff;
+    fill:none;
+
+    stroke-width:3;
+}
+
+/* TEXT */
+
+.service-content h4{
+
+    font-size:28px;
+
+    font-weight:700;
+
+    margin-bottom:18px;
+
+    color:#0b2545;
+}
+
+.service-content p{
+
+    color:#6b7280;
+
+    line-height:1.9;
+
+    margin-bottom:22px;
+}
+
+/* LINK */
+
+.service-content a{
+
+    color:#0d6efd;
+
+    font-weight:700;
+
+    text-decoration:none;
 }
 
 /* COUNTER */
