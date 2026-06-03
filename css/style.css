@@ -41,6 +41,10 @@ body {
     margin-left: 22px;
     position: relative;
 }
+.navbar .nav-link.active {
+    color: #222 !important;
+    font-weight: 800;
+}
 
 .navbar .nav-link::after {
     content: '';
@@ -846,6 +850,17 @@ body {
 
 
 
+
+
+/* ////////////////////////////////////// DEPARTMENTS PAGE ////////////////////////////////////  */
+/* ========================== DEPARTMENT SECTION ========================== */
+.department-hero-section {
+    position: relative;
+    min-height: 450px;
+    background: url('https://medicare.bold-themes.com/general-hospital/wp-content/uploads/sites/14/2018/03/bgn-general-hospital-06.jpg')
+        center center/cover no-repeat;
+    overflow: hidden;
+}
 
 
 
